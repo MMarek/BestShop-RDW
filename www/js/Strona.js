@@ -58,21 +58,21 @@ class Platform extends Component {
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                            {/*    <img src="assets/Person.svg">*/}
-                            <div className="jeden">
+                                {/*    <img src="assets/Person.svg">*/}
+                                <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
                                     <p className="platform-icons-text">daily entries</p>
-                            </div>
+                                </div>
                             </section>
                             <section className="platform-icons-content">
-                            {/*    <img src="assets/Eye.svg">*/}
-                                    <p className="platform-icons-numbers">200000+</p>
-                                    <p className="platform-icons-text">seen products every day</p>
+                                {/*    <img src="assets/Eye.svg">*/}
+                                <p className="platform-icons-numbers">200000+</p>
+                                <p className="platform-icons-text">seen products every day</p>
                             </section>
                             <section className=" platform-icons-content">
-                            {/*    <img src="assets/Catalog.svg">*/}
-                                    <p className="platform-icons-numbers">10000+</p>
-                                    <p className="platform-icons-text">added posts daily</p>
+                                {/*    <img src="assets/Catalog.svg">*/}
+                                <p className="platform-icons-numbers">10000+</p>
+                                <p className="platform-icons-text">added posts daily</p>
                             </section>
                         </section>
                     </section>
@@ -142,7 +142,7 @@ class Main extends Component {
 
 class Pricing extends Component {
     render() {
-        return(
+        return (
             <section className="pricing">
                 <div className="container">
                     <section className="pricing-content">
@@ -219,21 +219,78 @@ class Pricing extends Component {
 }
 
 
-class App extends Component {
+class Contakt extends Component{
     render() {
         return (
-            <>
-                <Navigation/>
-                <Header/>
-                <Platform/>
-                <Main/>
-                <Pricing/>
-            </>
+            <section className="contact">
+                <div className="container">
+                    <section className="contact-content">
+                        <section className="contact-desc">
+                            <h2 className="contact-desc-title">Any questions?</h2>
+                            <p className="contact-add-text">Leave your email address or call us!</p>
+                            <section className="contact-address">
+                                <div className="contact-email">
+                                    {/*<img src="assets/Mail%20Icon.svg">*/}
+                                    <p>info@bestshop.xyz</p>
+                                </div>
+                                <div className="contact-number">
+                                    {/*<img src="assets/Phone%20Icon.svg">*/}
+                                    <p>123 456 789</p>
+                                </div>
+                            </section>
+                        </section>
+                        <form className="contact-form">
+                            <label htmlFor="name">Name</label>
+                            <input type="text" id="name" name="name">
+                                {/*<label htmlFor="email">Email</label>*/}
+                                {/*<input type="text" id="email" name="email">*/}
+                                {/*    <div className="agreement">*/}
+                                {/*        <input type="checkbox" id="agree" name="agree">*/}
+                                {/*            <label htmlFor="agree">I hereby give consent for my personal data included*/}
+                                {/*                in my application to be*/}
+                                {/*                processed for the purposes of the recruitment process under the European*/}
+                                {/*                Parliament’s and Council of*/}
+                                {/*                the*/}
+                                {/*                European Union Regulation on the Protection of Natural Persons as of 27*/}
+                                {/*                April 2016, with regard to*/}
+                                {/*                the*/}
+                                {/*                processing of personal data and on the free movement of such data, and*/}
+                                {/*                repealing Directive 95/46/EC*/}
+                                {/*                (Data Protection Directive)</label>*/}
+                                {/*        </input>*/}
+                                {/*    </div>*/}
+                                {/*    <button className="contact-form-button">Send</button>*/}
+                                {/**/}
+                                {/*</input>*/}
+                            </input>
+                        </form>
+                    </section>
+                </div>
+            </section>
+    )
+
+    }
+
+    }
+
+
+    class App extends Component {
+        render() {
+        return (
+        <>
+        <Navigation/>
+        <Header/>
+        <Platform/>
+        <Main/>
+        <Pricing/>
+        <Contakt/>
+
+        </>
         )
     }
-}
+    }
 
 
-ReactDOM.render(
-    <App/>
+    ReactDOM.render(
+        <App/>
     , document.getElementById("app"));
