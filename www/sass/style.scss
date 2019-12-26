@@ -635,3 +635,147 @@ main {
 }
 
 
+
+
+
+
+
+.pricing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+
+  .pricing-text {
+    padding: 3.75rem 0 1.25rem 0;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+  }
+}
+
+.pricing-content-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .pricing-content-desc {
+    width: 90%;
+    height: 15.625rem;
+    margin-bottom: 3.375rem;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    .begin {
+      position: absolute;
+      bottom: -10%;
+
+      .button-begin {
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8125rem;
+        color: #fff;
+        font-weight: 700;
+        background: #EB476E;
+        border-radius: 23px;
+        border: none;
+        padding: 16px 57px;
+      }
+    }
+
+    @media screen and (min-width: 780px) {
+      flex-direction: column;
+      .begin {
+        bottom: -5%;
+      }
+    }
+
+  }
+
+  .pricing-content-desc:nth-of-type(2) {
+    width: 100%;
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+
+    .button-begin {
+      box-shadow: 5px 10px 27px #07ACE629;
+      background: #07ACE6;
+    }
+  }
+
+  .pricing-content-desc:nth-of-type(3) {
+    border: 1px solid #55DFB4;
+
+    .button-begin {
+      background: #55DFB4;
+    }
+  }
+
+  @media screen and(min-width: 780px) {
+    flex-direction: row;
+    .pricing-content-desc {
+      margin: 1.875rem;
+      height: 28.75rem;
+      text-align: center;
+    }
+    .pricing-content-desc:nth-of-type(2) {
+      height: 31.25rem;
+    }
+  }
+}
+
+.pricing-content-main-text {
+  text-align: center;
+
+  .main-text {
+    color: #13253B;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .main-cash-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.875rem;
+    color: #FB3B64;
+  }
+
+  .main-limited-text {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #13253B;
+    margin: 10px 0;
+  }
+}
+
+.pricing-content-desc:nth-of-type(2) {
+  .main-cash-text {
+    color: #07ACE6;
+  }
+}
+
+.pricing-content-desc:nth-of-type(3) {
+  .main-cash-text {
+    color: #55DFB4;
+  }
+}
+
+.pricing-values {
+  li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    padding-bottom: 20px;
+    img {
+      padding-right: 10px;
+    }
+  }
+}

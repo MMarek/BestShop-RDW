@@ -139,6 +139,86 @@ class Main extends Component {
     }
 }
 
+
+class Pricing extends Component {
+    render() {
+        return(
+            <section className="pricing">
+                <div className="container">
+                    <section className="pricing-content">
+                        <h2 className="pricing-text">Pricing</h2>
+                        <section className="pricing-content-box">
+                            <section className="pricing-content-desc">
+                                <section className="pricing-content-main-text">
+                                    <p className="main-text">Basic</p>
+                                    <p className="main-cash-text">$0</p>
+                                </section>
+                                <section className="pricing-content-desc-text">
+                                    <ul className="pricing-values">
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">100MB HDD</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">1 Subdomain</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2 E-mails</li>*/}
+                                        {/*<li><img src="assets/Close.svg" alt="">Two years license</li>*/}
+                                        {/*<li><img src="assets/Close.svg" alt="">Full support</li>*/}
+                                    </ul>
+                                </section>
+                                <section className="begin">
+                                    <a href="calculator.html">
+                                        <button className="button-begin">Begin</button>
+                                    </a>
+                                </section>
+                            </section>
+                            <section className="pricing-content-desc">
+                                <section className="pricing-content-main-text">
+                                    <p className="main-text">Professional</p>
+                                    <p className="main-cash-text">$25</p>
+                                    <p className="main-limited-text">Limited offer</p>
+                                </section>
+                                <section className="pricing-content-desc-text">
+                                    <ul className="pricing-values">
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">500MB HDD</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2 Subdomains</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">5 E-mails</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">One year license</li>*/}
+                                        {/*<li><img src="assets/Close.svg" alt="">Full support</li>*/}
+                                    </ul>
+                                </section>
+                                <section className="begin">
+                                    <a href="calculator.html">
+                                        <button className="button-begin">Begin</button>
+                                    </a>
+                                </section>
+                            </section>
+                            <section className="pricing-content-desc">
+                                <section className="pricing-content-main-text">
+                                    <p className="main-text">Premium</p>
+                                    <p className="main-cash-text">$60</p>
+                                    <p className="main-limited-text">Limited offer</p>
+                                </section>
+                                <section className="pricing-content-desc-text">
+                                    <ul className="pricing-values">
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2GB HDD</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">5 Subdomains</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">20 E-mails</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">Two years license</li>*/}
+                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">Full support</li>*/}
+                                    </ul>
+                                </section>
+                                <section className="begin">
+                                    <a href="calculator.html">
+                                        <button className="button-begin">Begin</button>
+                                    </a>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        )
+    }
+}
+
+
 class App extends Component {
     render() {
         return (
@@ -147,6 +227,7 @@ class App extends Component {
                 <Header/>
                 <Platform/>
                 <Main/>
+                <Pricing/>
             </>
         )
     }
