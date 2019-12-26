@@ -46,11 +46,98 @@ class Header extends Component {
             </header>
         )
     }
-
-
-
 }
 
+class Platform extends Component {
+
+    render() {
+        return (
+            <section className="platform">
+                <div className="container">
+                    <section className="platform-content">
+                        <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
+                        <section className="platform-icons">
+                            <section className="platform-icons-content">
+                            {/*    <img src="assets/Person.svg">*/}
+                            <div className="jeden">
+                                    <p className="platform-icons-numbers">10000+</p>
+                                    <p className="platform-icons-text">daily entries</p>
+                            </div>
+                            </section>
+                            <section className="platform-icons-content">
+                            {/*    <img src="assets/Eye.svg">*/}
+                                    <p className="platform-icons-numbers">200000+</p>
+                                    <p className="platform-icons-text">seen products every day</p>
+                            </section>
+                            <section className=" platform-icons-content">
+                            {/*    <img src="assets/Catalog.svg">*/}
+                                    <p className="platform-icons-numbers">10000+</p>
+                                    <p className="platform-icons-text">added posts daily</p>
+                            </section>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        )
+    }
+}
+
+
+class Main extends Component {
+    render() {
+        return (
+            <main>
+                <div className="container">
+                    <div className="main-content">
+                        <article className="main-box">
+                            <section className="main-box-text">
+                                <h2 className="main-box-primary-text">Be always first</h2>
+                                <p className="main-box-additional-text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore
+                                    et dolore
+                                    magna aliqua. Ut enim ad minim veniam.</p>
+                            </section>
+                            <section className="main-box-image">
+                                {/*<img src="assets/Macbook.png">*/}
+                            </section>
+                        </article>
+                        <article className="main-box">
+                            <section className="main-box-text">
+                                <h2 className="main-box-primary-text">Your shop is where you are!</h2>
+                                <p className="main-box-additional-text">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore
+                                    et dolore
+                                    magna aliqua. Ut enim ad minim veniam.</p>
+                            </section>
+                            <section className="main-box-image">
+                                {/*<img src="assets/iPhone.png">*/}
+                            </section>
+                        </article>
+                        <section className="main-box-sepparate">
+                            <article className="main-box">
+                                <section className="main-box-text">
+                                    <h2 className="main-box-primary-text">Increase recognition your brand!</h2>
+                                    <p className="main-box-additional-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore
+                                        et dolore
+                                        magna aliqua. Ut enim ad minim veniam.</p>
+                                </section>
+                            </article>
+                            <article className="main-box">
+                                <section className="main-box-image">
+                                    {/*<img src="assets/Trumpet.png">*/}
+                                </section>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </main>
+        )
+    }
+}
 
 class App extends Component {
     render() {
@@ -58,10 +145,14 @@ class App extends Component {
             <>
                 <Navigation/>
                 <Header/>
+                <Platform/>
+                <Main/>
             </>
         )
     }
 }
 
 
-ReactDOM.render(<App/>, document.getElementById("app"));
+ReactDOM.render(
+    <App/>
+    , document.getElementById("app"));
