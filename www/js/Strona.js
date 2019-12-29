@@ -219,7 +219,7 @@ class Pricing extends Component {
 }
 
 
-class Contakt extends Component{
+class Contakt extends Component {
     render() {
         return (
             <section className="contact">
@@ -267,30 +267,50 @@ class Contakt extends Component{
                     </section>
                 </div>
             </section>
-    )
-
-    }
-
-    }
-
-
-    class App extends Component {
-        render() {
-        return (
-        <>
-        <Navigation/>
-        <Header/>
-        <Platform/>
-        <Main/>
-        <Pricing/>
-        <Contakt/>
-
-        </>
         )
     }
+}
+
+class Footer extends Component {
+    render() {
+        return (
+            <footer>
+                <div className="container">
+                    <section className="footer-content">
+                        <section className="footer-text">
+                            <h3 className="footer-text-main">BestShop</h3>
+                            <p className="footer-text-reserved">&copy; 2019 BestShop LTD All Rights Reserved</p>
+                        </section>
+                        <section className="footer-img">
+                            {/*<img src="assets/Twitter.svg">*/}
+                            {/*    <img src="assets/Facebook.svg">*/}
+                        </section>
+                    </section>
+                </div>
+            </footer>
+        )
     }
 
+}
 
-    ReactDOM.render(
-        <App/>
+
+class App extends Component {
+    render() {
+        return (
+            <>
+                <Navigation/>
+                <Header/>
+                <Platform/>
+                <Main/>
+                <Pricing/>
+                <Contakt/>
+                <Footer/>
+            </>
+        )
+    }
+}
+
+
+ReactDOM.render(
+    <App/>
     , document.getElementById("app"));

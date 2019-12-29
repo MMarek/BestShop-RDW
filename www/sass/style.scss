@@ -64,7 +64,6 @@ table {
 
 
 
-
 nav {
   box-shadow: 0px 3px 6px #00000029;
   position: fixed;
@@ -241,6 +240,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   .header-main-text {
     font-family: Raleway, sans-serif;
     font-size: 3.0625rem;
@@ -424,6 +424,7 @@ main {
     font-weight: 400;
     padding-right: 1.25rem;
     line-height: 20px;
+    z-index: 1;
   }
 
   .main-box-image {
@@ -459,7 +460,7 @@ main {
 
     &::after {
       content: "";
-      //position: center;
+      //position: relative;
       //wróć do tego
       right: 7.4375rem;
       top: 1.5rem;
@@ -467,7 +468,7 @@ main {
       background: #07ACE6;
       width: 7.9375rem;
       height: 7.9375rem;
-      z-index: 1;
+      //z-index: 1;
     }
 
     .main-box-image {
@@ -489,7 +490,7 @@ main {
       background: #FB3B64;
       width: 5rem;
       height: 5rem;
-      z-index: 1;
+      //z-index: 1;
     }
 
     .main-box-image {
@@ -933,4 +934,35 @@ main {
   .contact-desc{
     align-self: baseline;
   }
+}
+
+
+
+
+
+footer {
+  box-shadow: 0px -5px 40px #00000029;
+}
+.footer-content{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-img {
+  img {
+    margin-right: 20px;
+  }
+}
+.footer-text-main {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 1.625rem;
+  color: #08A6E4;
+}
+
+.footer-text-reserved{
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6875rem;
+  color: #A5A5A5;
 }
