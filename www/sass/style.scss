@@ -317,6 +317,8 @@ header {
   }
 }
 .platform-icons-content {
+  //background: url("../assets/Checkmark.svg") no-repeat center/cover;
+
   display: flex;
   position: relative;
   justify-content: center;
@@ -330,6 +332,11 @@ header {
   @media screen and (min-width: 780px) {
     width: 7.25rem;
   }
+}
+
+.jeden {
+  background-image: ("../assets/Person.svg") no-repeat center/cover;
+
 }
 
 
@@ -432,7 +439,7 @@ main {
     justify-content: center;
 
     img {
-      width: 50%;
+      width: 100%;
     }
   }
 }

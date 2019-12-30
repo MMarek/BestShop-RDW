@@ -3,6 +3,23 @@ import ReactDOM from "react-dom";
 import '../sass/style.scss';
 
 
+
+
+//
+// import image from '../assets';
+//
+// class Image extends React.Component{
+//     render(){
+//         return(
+//             <img className='profile-image' alt='icon' src={image}/>
+//         );
+//     }
+// }
+
+
+
+
+
 class Navigation extends Component {
     render() {
         return (
@@ -58,7 +75,9 @@ class Platform extends Component {
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                {/*    <img src="assets/Person.svg">*/}
+                                    {/*<img src={require('../assets/.......')}/>*/}
+
+
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
                                     <p className="platform-icons-text">daily entries</p>
@@ -99,7 +118,7 @@ class Main extends Component {
                                     magna aliqua. Ut enim ad minim veniam.</p>
                             </section>
                             <section className="main-box-image">
-                                {/*<img src="assets/Macbook.png">*/}
+                                <img src={require("../assets/Macbook.png")}/>
                             </section>
                         </article>
                         <article className="main-box">
@@ -112,7 +131,7 @@ class Main extends Component {
                                     magna aliqua. Ut enim ad minim veniam.</p>
                             </section>
                             <section className="main-box-image">
-                                {/*<img src="assets/iPhone.png">*/}
+                                <img src={require("../assets/iPhone.png")}/>
                             </section>
                         </article>
                         <section className="main-box-sepparate">
@@ -128,7 +147,7 @@ class Main extends Component {
                             </article>
                             <article className="main-box">
                                 <section className="main-box-image">
-                                    {/*<img src="assets/Trumpet.png">*/}
+                                    <img src={require("../assets/Trumpet.png")}/>
                                 </section>
                             </article>
                         </section>
