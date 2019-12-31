@@ -326,7 +326,7 @@ header {
   flex-direction: column;
   width: 6.25rem;
   z-index: 99;
-  img {
+  svg {
     align-self: flex-end;
   }
   @media screen and (min-width: 780px) {
@@ -334,10 +334,10 @@ header {
   }
 }
 
-.jeden {
-  background-image: ("../assets/Person.svg") no-repeat center/cover;
-
-}
+//.jeden {
+//  background-svg: ("../assets/Person.svg") no-repeat center/cover;
+//
+//}
 
 
 .platform-icons-content::before {
@@ -782,7 +782,10 @@ main {
     font-family: "Open Sans", sans-serif;
     font-size: 0.875rem;
     padding-bottom: 20px;
-    img {
+    width: 85px;
+    height: 25px;
+    margin: 20px;
+    svg {
       padding-right: 10px;
     }
   }

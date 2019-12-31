@@ -75,8 +75,7 @@ class Platform extends Component {
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                    {/*<img src={require('../assets/.......')}/>*/}
-
+                                    <svg src='../assets/Person.svg'/>
 
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
@@ -84,12 +83,12 @@ class Platform extends Component {
                                 </div>
                             </section>
                             <section className="platform-icons-content">
-                                {/*    <img src="assets/Eye.svg">*/}
+                                    <svg src='../assets/Eye.svg'/>
                                 <p className="platform-icons-numbers">200000+</p>
                                 <p className="platform-icons-text">seen products every day</p>
                             </section>
                             <section className=" platform-icons-content">
-                                {/*    <img src="assets/Catalog.svg">*/}
+                                    <svg src='../assets/Catalog.svg'/>
                                 <p className="platform-icons-numbers">10000+</p>
                                 <p className="platform-icons-text">added posts daily</p>
                             </section>
@@ -174,11 +173,12 @@ class Pricing extends Component {
                                 </section>
                                 <section className="pricing-content-desc-text">
                                     <ul className="pricing-values">
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">100MB HDD</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">1 Subdomain</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2 E-mails</li>*/}
-                                        {/*<li><img src="assets/Close.svg" alt="">Two years license</li>*/}
-                                        {/*<li><img src="assets/Close.svg" alt="">Full support</li>*/}
+                                        <li>100MB HDD</li>
+                                            <svg src="../assets/Ckechmark-1.svg" alt=""/>
+                                        {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>1 Subdomain</li>*/}
+                                        {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>2 E-mails</li>*/}
+                                        {/*<li><svg src="../assets/Close.svg" alt=""/>Two years license</li>*/}
+                                        {/*<li><svg src="../assets/Close.svg" alt=""/>Full support</li>*/}
                                     </ul>
                                 </section>
                                 <section className="begin">
