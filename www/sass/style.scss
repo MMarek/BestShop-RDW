@@ -237,7 +237,7 @@ header {
 }
 
 .header-content {
-  background: url("../assets/Background.png") no-repeat bottom/contain;
+  //background: url("../assets/Background.png") no-repeat bottom/contain;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -279,6 +279,9 @@ header {
         text-align: center;
       }
     }
+  }
+  .header-photo {
+    width: 100%;
   }
 }
 

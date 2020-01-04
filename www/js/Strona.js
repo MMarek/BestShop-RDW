@@ -1,6 +1,11 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
+
+
+// import src from {"assets"};
+
+
 // import svg from '../assets';
 
 
@@ -62,6 +67,7 @@ class Header extends Component {
                         <a href="#" className="header-button">
                             <button className="header-button-container"><p>Open your shop</p></button>
                         </a>
+                        <img className="header-photo" src={require("../assets/Background.png")}/>
                     </div>
                 </div>
             </header>
@@ -80,6 +86,7 @@ class Platform extends Component {
                         <section className="platform-icons">
                             <section className="platform-icons-content">
                                 <img src='./assets/Person.svg'/>
+                                {/*<img src={require("../assets/Person.svg")}/>*/}
 
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
