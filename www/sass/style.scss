@@ -445,7 +445,7 @@ main {
     justify-content: center;
 
     img {
-      width: 50%;
+      width: 100%;
     }
   }
 }
@@ -474,7 +474,6 @@ main {
     &::after {
       content: "";
       position: absolute;
-      //wróć do tego
       right: 7.4375rem;
       top: 1.5rem;
       border-radius: 50%;

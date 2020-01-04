@@ -1,8 +1,9 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
-
-
+// import Person from './assets/Person.svg';
+// import { ReactComponent as Person } from './Person.svg';
+// import Person from './assets/Person.svg';
 // import src from {"assets"};
 
 
@@ -86,6 +87,8 @@ class Platform extends Component {
                         <section className="platform-icons">
                             <section className="platform-icons-content">
                                 <img src='./assets/Person.svg'/>
+                                {/*<svg src='./assets/Person.svg'/>*/}
+                                {/*<img src={Person}/>;*/}
                                 {/*<img src={require("../assets/Person.svg")}/>*/}
 
                                 <div className="jeden">
