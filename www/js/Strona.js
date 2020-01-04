@@ -7,7 +7,7 @@ import '../sass/style.scss';
 
 
 //
-// import dupa from './assets/Person.svg';
+// import  from './assets/Person.svg';
 
 // import { ReactComponent as assets } from '/assets/Person.svg';
 
@@ -38,10 +38,10 @@ class Navigation extends Component {
                         </button>
                         <div className="navigation">
                             <ul className="navigation-list">
-                                <li className="navigation-item"><a href="#">why us</a></li>
-                                <li className="navigation-item"><a href="#1">benefits</a></li>
-                                <li className="navigation-item"><a href="#">pricing</a></li>
-                                <li className="navigation-item"><a href="#">contact</a></li>
+                                <li className="navigation-item"><a href="#why">why us</a></li>
+                                <li className="navigation-item"><a href="#benefits">benefits</a></li>
+                                <li className="navigation-item"><a href="#pricing">pricing</a></li>
+                                <li className="navigation-item"><a href="#contact">contact</a></li>
                             </ul>
                         </div>
                     </section>
@@ -73,13 +73,13 @@ class Platform extends Component {
 
     render() {
         return (
-            <section className="platform" id="1">
+            <section className="platform" id="why">
                 <div className="container">
                     <section className="platform-content">
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                    {/*<img src={dupa}/>*/}
+                                <img src='./assets/Person.svg'/>
 
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
@@ -109,7 +109,7 @@ class Main extends Component {
     render() {
         return (
             <main>
-                <div className="container">
+                <div className="container" id="benefits">
                     <div className="main-content">
                         <article className="main-box">
                             <section className="main-box-text">
@@ -166,7 +166,7 @@ class Pricing extends Component {
     render() {
         return (
             <section className="pricing">
-                <div className="container">
+                <div className="container" id="pricing">
                     <section className="pricing-content">
                         <h2 className="pricing-text">Pricing</h2>
                         <section className="pricing-content-box">
@@ -246,7 +246,7 @@ class Contakt extends Component {
     render() {
         return (
             <section className="contact">
-                <div className="container">
+                <div className="container" id="contact">
                     <section className="contact-content">
                         <section className="contact-desc">
                             <h2 className="contact-desc-title">Any questions?</h2>
