@@ -1,12 +1,16 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
+// import svg from '../assets';
 
 
 
 
 //
-// import image from '../assets';
+// import dupa from './assets/Person.svg';
+
+// import { ReactComponent as assets } from '/assets/Person.svg';
+
 //
 // class Image extends React.Component{
 //     render(){
@@ -35,7 +39,7 @@ class Navigation extends Component {
                         <div className="navigation">
                             <ul className="navigation-list">
                                 <li className="navigation-item"><a href="#">why us</a></li>
-                                <li className="navigation-item"><a href="#">benefits</a></li>
+                                <li className="navigation-item"><a href="#1">benefits</a></li>
                                 <li className="navigation-item"><a href="#">pricing</a></li>
                                 <li className="navigation-item"><a href="#">contact</a></li>
                             </ul>
@@ -69,13 +73,13 @@ class Platform extends Component {
 
     render() {
         return (
-            <section className="platform">
+            <section className="platform" id="1">
                 <div className="container">
                     <section className="platform-content">
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                    <svg src='../assets/Person.svg'/>
+                                    {/*<img src={dupa}/>*/}
 
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
@@ -83,12 +87,12 @@ class Platform extends Component {
                                 </div>
                             </section>
                             <section className="platform-icons-content">
-                                    <svg src='../assets/Eye.svg'/>
+                                    <img src='./assets/Eye.svg'/>
                                 <p className="platform-icons-numbers">200000+</p>
                                 <p className="platform-icons-text">seen products every day</p>
                             </section>
                             <section className=" platform-icons-content">
-                                    <svg src='../assets/Catalog.svg'/>
+                                    <img src='./assets/Catalog.svg'/>
                                 <p className="platform-icons-numbers">10000+</p>
                                 <p className="platform-icons-text">added posts daily</p>
                             </section>
