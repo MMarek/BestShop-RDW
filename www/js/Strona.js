@@ -1,35 +1,11 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
-// import Person from '/../assets/Person.svg';
-// import { ReactComponent as Person } from './Person.svg';
-// import Person from './assets/Person.svg';
-// import src from {"assets"};
-// import logo from '../assets/Person.svg';
-// import {Person} from './assets/Person.svg';
-
-
-// import svg from '../assets';
-
-
-
-
-//
-// import  from './assets/Person.svg';
-
-// import { ReactComponent as assets } from '/assets/Person.svg';
-
-//
-// class Image extends React.Component{
-//     render(){
-//         return(
-//             <img className='profile-image' alt='icon' src={image}/>
-//         );
-//     }
-// }
-
-
-
+import person from '../assets/Person.svg';
+import eye from '../assets/Eye.svg';
+import catalog from '../assets/Catalog.svg';
+import ckechmark from '../assets/Ckechmark-1.svg';
+import close from '../assets/Close.svg';
 
 
 class Navigation extends Component {
@@ -88,25 +64,19 @@ class Platform extends Component {
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                {/*<img src={Person} alt='Person'/>*/}
-                                {/*<Person src="./assets/Person.svg" />*/}
-                                {/*<img src={Person.svg}/>*/}
-                                {/*<img src={logo} alt='Person'/>*/}
-                                {/*<img src={Person}/>;*/}
-                                {/*<img src={require("../assets/Person.svg")}/>*/}
-
+                                <img src={person}/>
                                 <div className="jeden">
                                     <p className="platform-icons-numbers">10000+</p>
                                     <p className="platform-icons-text">daily entries</p>
                                 </div>
                             </section>
                             <section className="platform-icons-content">
-                                    <img src='./assets/Eye.svg'/>
+                                    <img src={eye}/>
                                 <p className="platform-icons-numbers">200000+</p>
                                 <p className="platform-icons-text">seen products every day</p>
                             </section>
                             <section className=" platform-icons-content">
-                                    <img src='./assets/Catalog.svg'/>
+                                    <img src={catalog}/>
                                 <p className="platform-icons-numbers">10000+</p>
                                 <p className="platform-icons-text">added posts daily</p>
                             </section>
@@ -191,20 +161,18 @@ class Pricing extends Component {
                                 </section>
                                 <section className="pricing-content-desc-text">
                                     <ul className="pricing-values">
-                                        <li>100MB HDD</li>
-                                        <img src='../assets/Ckechmark-1.svg' alt=''/>
-                                            {/*<svg src="../assets/Ckechmark-1.svg" alt=""/>*/}
-                                        {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>1 Subdomain</li>*/}
-                                        {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>2 E-mails</li>*/}
-                                        {/*<li><svg src="../assets/Close.svg" alt=""/>Two years license</li>*/}
-                                        {/*<li><svg src="../assets/Close.svg" alt=""/>Full support</li>*/}
+                                        <li><img src={ckechmark}/> 100MB HDD </li>
+                                        <li><img src={ckechmark}/> 1 Subdomain </li>
+                                        <li><img src={ckechmark}/> 2 E-mails</li>
+                                        <li><img src={close}/> Two years license</li>
+                                        <li><img src={close}/> Full support</li>
                                     </ul>
                                 </section>
-                                <section className="begin">
-                                    <a href="calculator.html">
-                                        <button className="button-begin">Begin</button>
-                                    </a>
-                                </section>
+                                {/*<section className="begin">*/}
+                                {/*    <a href="calculator.html">*/}
+                                {/*        <button className="button-begin">Begin</button>*/}
+                                {/*    </a>*/}
+                                {/*</section>*/}
                             </section>
                             <section className="pricing-content-desc">
                                 <section className="pricing-content-main-text">
@@ -214,18 +182,18 @@ class Pricing extends Component {
                                 </section>
                                 <section className="pricing-content-desc-text">
                                     <ul className="pricing-values">
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">500MB HDD</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2 Subdomains</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">5 E-mails</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">One year license</li>*/}
-                                        {/*<li><img src="assets/Close.svg" alt="">Full support</li>*/}
+                                        <li><img src={ckechmark}/> 500MB HDD </li>
+                                        <li><img src={ckechmark}/> 2 Subdomain </li>
+                                        <li><img src={ckechmark}/> 5 E-mails</li>
+                                        <li><img src={ckechmark}/> Two years license</li>
+                                        <li><img src={close}/> Full support</li>
                                     </ul>
                                 </section>
-                                <section className="begin">
-                                    <a href="calculator.html">
-                                        <button className="button-begin">Begin</button>
-                                    </a>
-                                </section>
+                                {/*<section className="begin">*/}
+                                {/*    <a href="calculator.html">*/}
+                                {/*        <button className="button-begin">Begin</button>*/}
+                                {/*    </a>*/}
+                                {/*</section>*/}
                             </section>
                             <section className="pricing-content-desc">
                                 <section className="pricing-content-main-text">
@@ -235,18 +203,18 @@ class Pricing extends Component {
                                 </section>
                                 <section className="pricing-content-desc-text">
                                     <ul className="pricing-values">
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">2GB HDD</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">5 Subdomains</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">20 E-mails</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">Two years license</li>*/}
-                                        {/*<li><img src="assets/Ckechmark-1.svg" alt="">Full support</li>*/}
+                                        <li><img src={ckechmark}/> 2GB HDD </li>
+                                        <li><img src={ckechmark}/> 5 Subdomain </li>
+                                        <li><img src={ckechmark}/> 20 E-mails</li>
+                                        <li><img src={ckechmark}/> Two years license</li>
+                                        <li><img src={ckechmark}/> Full support</li>
                                     </ul>
                                 </section>
-                                <section className="begin">
-                                    <a href="calculator.html">
-                                        <button className="button-begin">Begin</button>
-                                    </a>
-                                </section>
+                                {/*<section className="begin">*/}
+                                {/*    <a href="calculator.html">*/}
+                                {/*        <button className="button-begin">Begin</button>*/}
+                                {/*    </a>*/}
+                                {/*</section>*/}
                             </section>
                         </section>
                     </section>
