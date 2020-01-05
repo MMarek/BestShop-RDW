@@ -1,10 +1,12 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
-// import Person from './assets/Person.svg';
+// import Person from '/assets/Person.svg';
 // import { ReactComponent as Person } from './Person.svg';
 // import Person from './assets/Person.svg';
 // import src from {"assets"};
+// import logo from '../assets/Person.svg';
+// import {Person} from './assets/Person.svg';
 
 
 // import svg from '../assets';
@@ -87,7 +89,9 @@ class Platform extends Component {
                         <section className="platform-icons">
                             <section className="platform-icons-content">
                                 <img src='./assets/Person.svg'/>
-                                {/*<svg src='./assets/Person.svg'/>*/}
+                                {/*<Person src="./assets/Person.svg" />*/}
+                                {/*<img src={Person.svg}/>*/}
+                                {/*<img src={logo} alt='Person'/>*/}
                                 {/*<img src={Person}/>;*/}
                                 {/*<img src={require("../assets/Person.svg")}/>*/}
 
@@ -188,7 +192,8 @@ class Pricing extends Component {
                                 <section className="pricing-content-desc-text">
                                     <ul className="pricing-values">
                                         <li>100MB HDD</li>
-                                            <svg src="../assets/Ckechmark-1.svg" alt=""/>
+                                        <img src='../assets/Ckechmark-1.svg' alt=''/>
+                                            {/*<svg src="../assets/Ckechmark-1.svg" alt=""/>*/}
                                         {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>1 Subdomain</li>*/}
                                         {/*<li><svg src="../assets/Ckechmark-1.svg" alt=""/>2 E-mails</li>*/}
                                         {/*<li><svg src="../assets/Close.svg" alt=""/>Two years license</li>*/}
@@ -332,6 +337,7 @@ class App extends Component {
         return (
             <>
                 <Navigation/>
+                {/*<img src={logo} alt='Logo'/>*/}
                 <Header/>
                 <Platform/>
                 <Main/>
