@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import '../sass/style.scss';
-// import Person from '/assets/Person.svg';
+// import Person from '/../assets/Person.svg';
 // import { ReactComponent as Person } from './Person.svg';
 // import Person from './assets/Person.svg';
 // import src from {"assets"};
@@ -88,7 +88,7 @@ class Platform extends Component {
                         <h2 className="platform-content-main-text">The most popular sales platform in country</h2>
                         <section className="platform-icons">
                             <section className="platform-icons-content">
-                                <img src='./assets/Person.svg'/>
+                                {/*<img src={Person} alt='Person'/>*/}
                                 {/*<Person src="./assets/Person.svg" />*/}
                                 {/*<img src={Person.svg}/>*/}
                                 {/*<img src={logo} alt='Person'/>*/}
