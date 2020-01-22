@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import '../sass/style.scss';
+import '../sass/_style.scss';
 import person from '../assets/Person.svg';
 import eye from '../assets/Eye.svg';
 import catalog from '../assets/Catalog.svg';
