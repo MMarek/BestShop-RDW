@@ -1,6 +1,13 @@
 import React, {Component} from "react";
-import ReactDOM from "react-dom";
-import '../sass/_style.scss';
+
+import Footer from "./Footer";
+import Contakt from "./Contakt";
+import Pricing from "./Priceing";
+import Main from "./Main";
+import Platform from "./Platform";
+import Header from "./Header";
+import Navigation from "./Navigation";
+
 
 
 class App extends Component {
@@ -20,7 +27,8 @@ class App extends Component {
     }
 }
 
+export default App;
 
-ReactDOM.render(
-    <App/>
-    , document.getElementById("app"));
+// ReactDOM.render(
+    {/*<App/>*/}
+    // , document.getElementById("app"));

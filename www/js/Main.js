@@ -1,12 +1,5 @@
 import React, {Component} from "react";
-import ReactDOM from "react-dom";
 import '../sass/_style.scss';
-import person from '../assets/Person.svg';
-import eye from '../assets/Eye.svg';
-import catalog from '../assets/Catalog.svg';
-import ckechmark from '../assets/Ckechmark-1.svg';
-import close from '../assets/Close.svg';
-
 
 class Main extends Component {
     render() {
@@ -63,3 +56,5 @@ class Main extends Component {
         )
     }
 }
+
+export default Main;
