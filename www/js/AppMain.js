@@ -15,3 +15,6 @@ function AppMain() {
         </HashRouter>
     )
 }
+
+export default AppMain;
+
