@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactDOM from "react-dom";
 import '../sass/_style.scss';
 import {
     HashRouter,
@@ -42,7 +43,7 @@ class App extends Component {
     }
 }
 
-export default App;
+ReactDOM.render(<App/>, document.getElementById("app"));
 
 // ReactDOM.render(
     {/*<App/>*/}
