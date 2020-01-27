@@ -12,8 +12,6 @@ class Footer extends Component {
                             <p className="footer-text-reserved">&copy; 2019 BestShop LTD All Rights Reserved</p>
                         </section>
                         <section className="footer-img">
-                            {/*<img src="assets/Twitter.svg">*/}
-                            {/*    <img src="assets/Facebook.svg">*/}
                         </section>
                     </section>
                 </div>

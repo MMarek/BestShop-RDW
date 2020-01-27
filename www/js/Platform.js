@@ -4,9 +4,6 @@ import person from '../assets/Person.svg';
 import eye from '../assets/Eye.svg';
 import catalog from '../assets/Catalog.svg';
 
-
-
-
 class Platform extends Component {
 
     render() {

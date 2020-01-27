@@ -3,8 +3,6 @@ import '../sass/_style.scss';
 import ckechmark from '../assets/Ckechmark-1.svg';
 import close from '../assets/Close.svg';
 
-
-
 class Pricing extends Component {
     render() {
         return (
@@ -27,11 +25,6 @@ class Pricing extends Component {
                                         <li><img src={close}/> Full support</li>
                                     </ul>
                                 </section>
-                                {/*<section className="begin">*/}
-                                {/*    <a href="calculator.html">*/}
-                                {/*        <button className="button-begin">Begin</button>*/}
-                                {/*    </a>*/}
-                                {/*</section>*/}
                             </section>
                             <section className="pricing-content-desc">
                                 <section className="pricing-content-main-text">
@@ -48,11 +41,6 @@ class Pricing extends Component {
                                         <li><img src={close}/> Full support</li>
                                     </ul>
                                 </section>
-                                {/*<section className="begin">*/}
-                                {/*    <a href="calculator.html">*/}
-                                {/*        <button className="button-begin">Begin</button>*/}
-                                {/*    </a>*/}
-                                {/*</section>*/}
                             </section>
                             <section className="pricing-content-desc">
                                 <section className="pricing-content-main-text">
@@ -69,11 +57,6 @@ class Pricing extends Component {
                                         <li><img src={ckechmark}/> Full support</li>
                                     </ul>
                                 </section>
-                                {/*<section className="begin">*/}
-                                {/*    <a href="calculator.html">*/}
-                                {/*        <button className="button-begin">Begin</button>*/}
-                                {/*    </a>*/}
-                                {/*</section>*/}
                             </section>
                         </section>
                     </section>
@@ -82,6 +65,5 @@ class Pricing extends Component {
         )
     }
 }
-
 
 export default Pricing;
