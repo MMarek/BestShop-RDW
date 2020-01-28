@@ -113,6 +113,7 @@ nav {
 
 .hamburger-inner {
   @include hamburger-line;
+
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -156,7 +157,7 @@ nav {
   left: 0;
   box-shadow: 0 3px 6px #00000029;
   transform: translateY(-100vw);
-  transition: transform 3s 1s ease-in-out;
+  transition: transform .3s .1s ease-in-out;
 
   .navigation-list {
     list-style: none;

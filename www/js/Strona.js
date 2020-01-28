@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function(){
+    const hamburger = document.querySelector('.hamburger');
+    const navigation = document.querySelector('.navigation');
+    hamburger.addEventListener('click', function(){
+        hamburger.classList.toggle('hamburger--active');
+        navigation.classList.toggle('navigation--active');
+    });
+});
+
+
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import '../sass/_style.scss';
