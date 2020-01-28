@@ -4,4 +4,4 @@ My first page.
 - React
 - JS
 - Webpack
-- SASS
+- CSS
