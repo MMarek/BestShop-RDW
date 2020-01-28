@@ -16,12 +16,12 @@ node_modules/
 *~
 
 ### Code ###
-# Visual Studio Code - https://code.visualstudio.com/
 .settings/
 .vscode/
 
 ### Webstorm ###
 .idea/
+Strona1.js
 
 ### Other ###
 .test/
